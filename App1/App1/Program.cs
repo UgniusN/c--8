@@ -10,6 +10,13 @@ namespace App1
     {
         static void Main(string[] args)
         {
+            spausdintiVarda();
+            Console.Read();
+        }
+
+        public static void spausdintiVarda()
+        {
+            Console.WriteLine("Ugnius");
         }
     }
 }
